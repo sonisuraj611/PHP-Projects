@@ -1,0 +1,45 @@
+/* .section1{
+    height: 15vh;
+} */
+
+.heading{
+    color: white;
+}
+body{
+    /* height: 70vh; */
+    background: url('/hipa/img/about2.jpg') no-repeat center center/cover;
+}
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+.section2 img{
+    margin: 0px 30px;
+    width: 18vw;
+
+}
+.para{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    /* margin: 110px 105px; */
+}
+.section3{
+    /* background: url('/hipa/img/about3.jpg') no-repeat center center/cover; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+.section3 h1{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+/* .section div{
+    margin: auto;
+} */

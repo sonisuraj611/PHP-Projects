@@ -1,0 +1,12 @@
+.section1{
+    height: 20vh;
+}
+.heading{
+    margin-top: 5vh;
+}
+body{
+    background: url('/hipa/img/news.jpg') no-repeat center fixed;
+}
+/* .heading{
+    color: white;
+} */

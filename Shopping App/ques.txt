@@ -1,0 +1,13 @@
+Write a code to simulate shopping cart implementation, user should be able to add products, their price, and the quantity available. other users should be able to buy the product or a number of products, place an order, and checkout. This implementation can be done either as a web application or a console application. Please ensure to use the proper relationships between the database tables.
+
+
+1. Registration page
+2. login for admin
+3. add product, add product price, and add product quantity.
+    Admin can check the order history the deliver the product to the customer.
+4. Buyer registration and login page
+5. Add the product to the cart at least 2 products at once.
+6. total amount bill ( payment options cash on delivery) delivery time like 2 days or 24hr.
+7. checkout---Name, address, phone number,
+8. Customer can check their order product history.
+9. proper relationship in every database

@@ -1,0 +1,90 @@
+body{
+    background: url('/hipa/img/game.jpg') no-repeat center center/cover;
+}
+.section1{
+    height: 20vh;
+}
+.heading{
+    margin-top: 5vh;
+    /* color: white; */
+}
+.section2{
+    margin-top: 2vh;
+    height: 58vh;
+    border: 10px #08b9be;
+    width: 90vw;
+    border-radius: 20px;
+    border-style: outset inset;
+    padding-top: 5vh;
+    margin: auto;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 9vw);
+    grid-template-columns: repeat(3, 10vw);
+}
+.box{
+    /* color: white; */
+    font-size: 6vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box:hover{
+    cursor: pointer;
+    background-color: #bcdbda;
+}
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+.gameInfo{
+    padding-top: 10vh;
+    margin: 10px 70px;
+}
+#infoHead{
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 12px;
+    font-size: 2.5rem;
+}
+.turn{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+
+#reset{
+    /* #4285F4 */
+    font-size: 1.2rem;
+    padding: 2px 10px;
+    border-radius: 4px;
+    border-color: #04676a;
+    margin: 0px 10px;
+    border-style: solid;
+    color: white;
+    background-color: #04676a;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+}
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+.imgbox{
+    margin-top: 25px;
+}
